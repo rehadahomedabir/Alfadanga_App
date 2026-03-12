@@ -60,7 +60,7 @@ import {
   Navigation
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { supabase } from './supabase';
+import { supabase } from './supabase.ts';
 import { User as SupabaseUser } from '@supabase/supabase-js';
 
 // --- Types ---
